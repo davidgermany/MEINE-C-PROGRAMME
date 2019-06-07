@@ -1,0 +1,74 @@
+#include <iostream>//Das  Lädt die Bibliothek glaub ich...(JA)
+//ignorier des GRÜNE wenn du willst, ich hab übertrieben mit den Kommentaren. Tut mir leid.
+//copyright DAVID MATHEJA (wichtig). hat mich 2 wertvolle stunden gekostet.
+//version 1.2 (egal
+//Es handelt sich hier um ein simples iergendwas zussammengeschmissen für lernzwecke Programm.
+//Ich hafte net für schaden den dieses Programm verursacht. LOL.(mehr sag ich net dazu)
+//ernsthaft du solltest aufpassen was du hier machst, ganz besonders solltest du aufpassen dass du dieses programm nicht als dein eigenes preis gibst. (dann bekommst n problem mit mir)
+int main()//was es macht? nix. ist aber wichtig.
+// vielleicht fragst du dich, was sollen die Komentare?. gute Frage... 
+
+{	//mit der komischen klammer fängt das programmieren erst richtig an, ausser du kappierst hier nix.
+
+	double flache;//double, meine lieblings variable...(sie kann kommazahlen, und zwar deutlich mehr als float)
+	double umfang;
+	double radius;
+	double durchmesser;
+	const double pi = 3.14;//const macht aus der variable eine Konstante. (eine FESTE ZAHL)
+	int a = 12; //damit wird die variable a erschaffen, genauer erklärt: int steht für einen variablen typen der nur natürliche zahlen benutzen kann,und zwar belegt er genau 4 bytes in deinem 
+				//Arbeitsspeicher, egal was du da drin speicherst. mit dem = wird des gleich auf 12 gesetzt.
+	std::cout << "TEST 097";//alles was im "HALLO! hier" ist wird als text ausgegeben.
+	
+	std::cout << "\n\nPROGRAMM ERFOLGREICH GELADEN\n\tEIN VIRUS WURDE ENTDECKT! SIE MÜSSEN JETZT UPGRADEN, HEUTE FÜR NUR 199,98€!!!11!!!1!\n\n\nbeeilung, ich meins ernst .\nEnter drücken um Hinweise zu bekommen (ES FALLEN DIE NORMALEN(NAJA) GEBÜHREN AN";
+	
+	std::cin.get();//Hier wird der User aufgefordert die ENTER taste zu drücken. Praktisch bei story spielen.
+	
+				   //nebenbei, Ich bin Hier um zu programmieren und net der beste in deutsch, ok?
+	
+	std::cout << "\n\nsie müssen mindestens... ach geb einfach dein alter ein um dieses programm spielen zu können (KEINE BUCHSTABEN! DA STÜRZT ES AB!)\n";
+	
+	std::cin >> a;
+	
+	std::cout << "\ndanke für IHRE kaufbestätigung (;. mit" << a << "milionen euros\n der VIRUß ist fertig geladen\n(die dinger sind net einfach zu machen, aber du bekommst heute einen GRATIS!!1!!!)";
+
+	
+
+
+	b:;// darf ich vorstellen? mit wem red ich hier überhaupt... egal, das Hier ist b, es ist einfach nur b. wenn befohlen wird goto b; dann landet der compiler wieder hier.( wichtig für später
+
+
+
+
+	std::cout << "\n\nWILLKOMMEN ZUM TOLLEN RECHENDINGSBUMS!\ngebe den durchmesser ein. Es geht  um einen Kreis, falls du den Titel nicht lesen kannst.\nDURCHMESSER EINGEBEN:   ";
+	std::cin >> durchmesser;// hier wird eine eingabe aufgefordert, die bewirkt das die Variable durchmesser auf die eingabe gesetzt wird. Sehr wichtig!
+	radius = durchmesser / 2;//BERECHNUNGEN
+	umfang = pi*durchmesser;//FORMELN
+	flache = pi * (radius*radius);//WIRD NICHT AUF DEM BILDSCHIRM GEZEIGT
+	
+	std::cout << "UMFANG  " << umfang;// textausgabe mit anschliesender Variablen auslesung.
+	
+	std::cout << "\n FLÄCHENINHALT  " << flache;// sollte leicht zu verstehen sein, genau wie 1 weiter oben
+	
+	std::cout << "\n RADIUS ist" << radius;
+	
+	std::cout << "\n \nwillst du noch ein kreis berechnen? (es wird auch aufgeräumt, keine sorge) 1 für ja\n2 um das copyright zu sehen, und alles andere um das Programm zu beenden.";
+
+
+	std::cin >> a;
+	if (a == 1)					// falls (a ist 1)                      an dieser stelle solltest du wissen das es übersprungen wird wenn es nicht zutrifft, also zb. wenn a den wert 5 besitzt. 
+	{					
+		system("cls");			//tu das {bla bla}
+		goto b;
+	}
+	else if (a==2)				//sonst falls (a ist 2)
+	{
+		system("cls");			//tu das {bla bla}
+		std::cout << "copyright von DAVID MATHEJA. \n ich weiss zwar net genau was ein copyright ist, \nich weiss aber das das mein Programm ist was du da benutzt. (;";
+	}
+	else  //sonst (also wenn nichts der vorherigen zutrifft) mach das programm weiter.
+
+
+
+	return 0;// endlich bin ich hier angekommen. Hier wird dem compiler gesagt: hat funktioniert, programm jetzt schliesen.
+
+} // das ENDE. nach der klammer kommt NICHTS.
